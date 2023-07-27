@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="radio" id="i1" name="images" checked />
+      <input type="radio" id="i2" name="images" />
+      <input type="radio" id="i3" name="images" />
+      <input type="radio" id="i4" name="images" />
+
+      <div class="slide_img" id="one">
+        <img
+          src="https://images.unsplash.com/photo-1656464868371-602be27fd4c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+        />
+
+        <label class="prev" for="i4"><span class="prev-sp"></span></label>
+        <label class="next" for="i2"><span class="next-sp"></span></label>
+      </div>
+
+      <div class="slide_img" id="two">
+        <img
+          src="https://images.unsplash.com/photo-1657586640569-4a3d4577328c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+        />
+
+        <label class="prev" for="i1"><span class="prev-sp"></span></label>
+        <label class="next" for="i3"><span class="next-sp"></span></label>
+      </div>
+
+      <div class="slide_img" id="three">
+        <img
+          src="https://images.unsplash.com/photo-1656077217715-bdaeb06bd01f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80"
+        />
+
+        <label class="prev" for="i2"><span class="prev-sp"></span></label>
+        <label class="next" for="i4"><span class="next-sp"></span></label>
+      </div>
+
+      <div class="slide_img" id="four">
+        <img
+          src="https://images.unsplash.com/photo-1679335424216-e1edb8ea8e92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        />
+
+        <label class="prev" for="i3"><span class="prev-sp"></span></label>
+        <label class="next" for="i1"><span class="next-sp"></span></label>
+      </div>
+
+      <div id="nav_slide">
+        <label for="i1" class="dots" id="dot1"></label>
+        <label for="i2" class="dots" id="dot2"></label>
+        <label for="i3" class="dots" id="dot3"></label>
+        <label for="i4" class="dots" id="dot4"></label>
+      </div>
+    </div>
+  </body>
+  <script src="/script.js"></script>
+</html>
